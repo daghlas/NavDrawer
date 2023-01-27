@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/dashboard"
+            android:fontFamily="@font/poppinsbold"/>
+        <item
+            android:id="@+id/nav_staff"
+            android:icon="@drawable/ic_staff"
+            android:title="@string/staff_management"
+            android:fontFamily="@font/poppinsbold"/>
+        <item
+            android:id="@+id/nav_cust"
+            android:icon="@drawable/ic_customer"
+            android:title="@string/customer_management"
+            android:fontFamily="@font/poppinsbold"/>
+        <item
+            android:id="@+id/nav_project"
+            android:icon="@drawable/ic_project"
+            android:title="@string/project_management"
+            android:fontFamily="@font/poppinsbold"/>
+    </group>
+
+    <item android:title="More">
+        <menu>
+            <item android:id="@+id/nav_share"
+                android:title="Share App"
+                android:icon="@drawable/ic_share"/>
+            <item android:checkable="true"
+                android:id="@+id/nav_about"
+                android:title="About"
+                android:icon="@drawable/ic_about"/>
+        </menu>
+    </item>
+
+</menu>

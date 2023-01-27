@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <TextView
+        android:id="@+id/message1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginStart="20dp"
+        android:text="@string/reach_us_"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:fontFamily="@font/poppinsmedium" />
+    <TextView
+        android:id="@+id/mail1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mail_daghlaskaire58_gmail_com"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/poppinsmedium"/>
+    <TextView
+        android:id="@+id/mobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mobile_0723325631"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="140dp"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/poppinsmedium"/>
+    <TextView
+        android:id="@+id/goodday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/good_day"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="170dp"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/poppinsmedium"/>
+
+</RelativeLayout>
